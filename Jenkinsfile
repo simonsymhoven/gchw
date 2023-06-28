@@ -9,5 +9,11 @@ pipeline {
         bat "C:/ProgramData/chocolatey/bin/make.exe"
       }
     }
+
+    stage("Hello World") {
+      steps {
+        bat "gchw"
+      }
+    }
   }
 }
