@@ -5,5 +5,6 @@ all: gchw
 
 # This rule tells make how to build gchw from main.cpp
 gchw:
-	mkdir -p ./bin
-	g++ -o ./bin/gchw ./src/main.cpp
+	@if not exist .\bin mkdir .\bin
+	g++ -o .\bin\gchw.exe .\src\main.cpp
+
