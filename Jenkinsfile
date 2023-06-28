@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage("Compile") {
       steps {
-        bat "make"
+        bat "C:\ProgramData\chocolatey\bin\make.exe"
       }
     }
   }
