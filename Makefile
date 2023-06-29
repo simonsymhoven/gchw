@@ -5,5 +5,5 @@ all: gchw
 
 # This rule tells make how to build gchw from main.cpp
 gchw:
-	C:/msys64/mingw64/bin/g++.exe -v -o gchw ./src/main.cpp
+	C:/msys64/mingw64/bin/g++.exe -v -o gchw C:/Users/cq/workspace/c_demo_project_master/src/main.cpp
 
